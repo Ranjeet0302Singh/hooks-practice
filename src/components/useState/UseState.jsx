@@ -23,7 +23,7 @@ const UseState = () => {
 
 const Wrapper = styled.section`
   .container {
-    height: 100vh;
+    height: 92.8vh;
     display: flex;
     justify-content: center;
     align-items: center;
