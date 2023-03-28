@@ -7,6 +7,7 @@ const NavBar = () => {
       <StyledLink to="/">Home</StyledLink>
       <StyledLink to="/usestate-counter">Counter</StyledLink>
       <StyledLink to="/usestate-form">From</StyledLink>
+      <StyledLink to="/useeffect-counter">UseEffect</StyledLink>
     </Header>
   );
 };
@@ -20,7 +21,7 @@ const Header = styled.div`
 
 const StyledLink = styled(Link)`
   text-decoration: none;
-color: #fff;
+  color: #fff;
 `;
 
 export default NavBar;
