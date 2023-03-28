@@ -11,7 +11,7 @@ const UseEffect = () => {
 
   useEffect(() => {
     document.title = count;
-  });
+  },[count]);
 
   return (
     <>
@@ -45,4 +45,5 @@ const Wrapper = styled.section`
     font-size: 5.4rem;
     color: #2e86c1;
   }
-`;export default UseEffect;
+`;
+export default UseEffect;

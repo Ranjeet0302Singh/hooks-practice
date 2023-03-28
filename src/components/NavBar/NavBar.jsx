@@ -8,11 +8,13 @@ const NavBar = () => {
       <StyledLink to="/usestate-counter">Counter</StyledLink>
       <StyledLink to="/usestate-form">From</StyledLink>
       <StyledLink to="/useeffect-counter">UseEffect</StyledLink>
+      <StyledLink to="/useeffect-cleanupfn">UseEffect Clean up function</StyledLink>
     </Header>
   );
 };
 const Header = styled.div`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   background: #181818;
