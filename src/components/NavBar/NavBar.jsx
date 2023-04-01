@@ -9,6 +9,7 @@ const NavBar = () => {
       <StyledLink to="/usestate-form">From</StyledLink>
       <StyledLink to="/useeffect-counter">UseEffect</StyledLink>
       <StyledLink to="/useeffect-cleanupfn">UseEffect Clean up function</StyledLink>
+      <StyledLink to="/usecontext-Parent">UseContext</StyledLink>
     </Header>
   );
 };

@@ -11,7 +11,7 @@ const UseEffect = () => {
 
   useEffect(() => {
     document.title = count;
-  },[count]);
+  });
 
   return (
     <>
